@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jamie.so/tags/aws/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/jq/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/kubernetes/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/linux/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/post/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/</loc>
+    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+  </url>
   
   <url>
     <loc>https://jamie.so/post/welcome/</loc>
@@ -7,15 +43,31 @@
   </url>
   
   <url>
-    <loc>https://jamie.so/</loc>
-    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
-    <priority>0</priority>
+    <loc>https://jamie.so/page/plan/</loc>
   </url>
   
   <url>
-    <loc>https://jamie.so/post/</loc>
-    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
-    <priority>0</priority>
+    <loc>https://jamie.so/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/page/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/page/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/page/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/page/talks/</loc>
   </url>
   
 </urlset>

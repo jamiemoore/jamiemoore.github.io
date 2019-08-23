@@ -1,46 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DevOps = People over Process over Tools</title>
-    <link>https://jamie.so/index.xml</link>
-    <description>Recent content on DevOps = People over Process over Tools</description>
+    <title>jamie.so</title>
+    <link>https://jamie.so/</link>
+    <description>Recent content on jamie.so</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>jbgmoore@gmail.com (jamie)</managingEditor>
+    <webMaster>jbgmoore@gmail.com (jamie)</webMaster>
     <lastBuildDate>Thu, 23 Mar 2017 23:24:02 +1100</lastBuildDate>
-    <atom:link href="https://jamie.so/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jamie.so/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>welcome</title>
       <link>https://jamie.so/post/welcome/</link>
       <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      
+      <author>jbgmoore@gmail.com (jamie)</author>
       <guid>https://jamie.so/post/welcome/</guid>
-      <description>
-
-&lt;p&gt;Here is some content.&lt;/p&gt;
-
-&lt;h1 id=&#34;header&#34;&gt;Header&lt;/h1&gt;
-
-&lt;p&gt;aaa&lt;/p&gt;
-
-&lt;h2 id=&#34;sub&#34;&gt;sub&lt;/h2&gt;
-
-&lt;p&gt;aaaa&lt;/p&gt;
-
-&lt;h3 id=&#34;third&#34;&gt;Third&lt;/h3&gt;
-
-&lt;p&gt;aaaa&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dot&lt;/li&gt;
-&lt;li&gt;s&lt;/li&gt;
-&lt;li&gt;ff&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
-echo &amp;quot;test&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>&lt;p&gt;Here is some content.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>.plan</title>
+      <link>https://jamie.so/page/plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jbgmoore@gmail.com (jamie)</author>
+      <guid>https://jamie.so/page/plan/</guid>
+      <description> reading:  Blondie24: Playing at the Edge of AI  watching:  The Thin Blue Line (again)  playing:  Automachef Slay the Spire  thinking:  How can the concept of an immutable team deal with the reality of constant change? How can I better spend my time with my family?  studying:  Certified Kubernetes Administrator  working:  Deakin Genie  </description>
+    </item>
+    
+    <item>
+      <title>about me</title>
+      <link>https://jamie.so/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jbgmoore@gmail.com (jamie)</author>
+      <guid>https://jamie.so/page/about/</guid>
+      <description>It has probably been ten seconds since I last thought about computers in some way.
+I am facinated by the connections between technical systems, including the developers, stakeholders and users of those systems.
+Sitting in a darkened room looking at a screen is pure fun and when the kids are safely in bed I like nothing more than coding, gaming or simply learning but it is always made better when someone brings me a cup of tea and excitedly asks what I am working on.</description>
+    </item>
+    
+    <item>
+      <title>contact me</title>
+      <link>https://jamie.so/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jbgmoore@gmail.com (jamie)</author>
+      <guid>https://jamie.so/page/contact/</guid>
+      <description>email: jbgmoore@gmail.com
+twitter: https://twitter.com/jbgmoore
+linkedin: https://www.linkedin.com/in/jbgmoore</description>
+    </item>
+    
+    <item>
+      <title>resume</title>
+      <link>https://jamie.so/page/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jbgmoore@gmail.com (jamie)</author>
+      <guid>https://jamie.so/page/resume/</guid>
+      <description>Career Goal Contribute to an organisation by designing and developing their continuous delivery systems and cloud engineering patterns.
+Skills and Experience  I have worked as a Software/Systems/DevOps Engineer for over twenty years. In that time, I have designed, built and maintained a wide variety of computer systems. I am certified and proficient in designing and implementing solutions on AWS as proven over the last five years. I have written automation and deployment projects in Bash, Python, Ruby and Go.</description>
+    </item>
+    
+    <item>
+      <title>talks</title>
+      <link>https://jamie.so/page/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jbgmoore@gmail.com (jamie)</author>
+      <guid>https://jamie.so/page/talks/</guid>
+      <description>This page is intentionally blank to encourage me to fill it in :)</description>
     </item>
     
   </channel>
