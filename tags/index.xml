@@ -6,18 +6,45 @@
     <description>Recent content in Tags on jamie.so</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>jbgmoore@gmail.com (jamie)</managingEditor>
-    <webMaster>jbgmoore@gmail.com (jamie)</webMaster>
-    <lastBuildDate>Thu, 23 Mar 2017 23:24:02 +1100</lastBuildDate>
+    <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
+    <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
+    <lastBuildDate>Mon, 26 Aug 2019 20:35:15 +1000</lastBuildDate>
     
 	<atom:link href="https://jamie.so/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>git</title>
+      <link>https://jamie.so/tags/git/</link>
+      <pubDate>Mon, 26 Aug 2019 20:35:15 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://jamie.so/tags/github/</link>
+      <pubDate>Mon, 26 Aug 2019 20:35:15 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpg</title>
+      <link>https://jamie.so/tags/gpg/</link>
+      <pubDate>Mon, 26 Aug 2019 20:35:15 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/tags/gpg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>aws</title>
       <link>https://jamie.so/tags/aws/</link>
       <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/tags/aws/</guid>
       <description></description>
     </item>
@@ -26,7 +53,7 @@
       <title>jq</title>
       <link>https://jamie.so/tags/jq/</link>
       <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/tags/jq/</guid>
       <description></description>
     </item>
@@ -35,7 +62,7 @@
       <title>kubernetes</title>
       <link>https://jamie.so/tags/kubernetes/</link>
       <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/tags/kubernetes/</guid>
       <description></description>
     </item>
@@ -44,7 +71,7 @@
       <title>linux</title>
       <link>https://jamie.so/tags/linux/</link>
       <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/tags/linux/</guid>
       <description></description>
     </item>

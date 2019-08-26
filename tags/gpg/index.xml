@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on jamie.so</title>
-    <link>https://jamie.so/post/</link>
-    <description>Recent content in Posts on jamie.so</description>
+    <title>gpg on jamie.so</title>
+    <link>https://jamie.so/tags/gpg/</link>
+    <description>Recent content in gpg on jamie.so</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
     <lastBuildDate>Mon, 26 Aug 2019 20:35:15 +1000</lastBuildDate>
     
-	<atom:link href="https://jamie.so/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamie.so/tags/gpg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/post/gpg/</guid>
       <description>&lt;p&gt;Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>welcome</title>
-      <link>https://jamie.so/post/welcome/</link>
-      <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/post/welcome/</guid>
-      <description>&lt;p&gt;Here is some content.&lt;/p&gt;</description>
     </item>
     
   </channel>

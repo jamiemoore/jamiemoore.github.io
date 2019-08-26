@@ -6,8 +6,8 @@
     <description>Recent content in Pages on jamie.so</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>jbgmoore@gmail.com (jamie)</managingEditor>
-    <webMaster>jbgmoore@gmail.com (jamie)</webMaster>
+    <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
+    <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
     
 	<atom:link href="https://jamie.so/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
       <title>.plan</title>
       <link>https://jamie.so/page/plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/page/plan/</guid>
       <description> reading:  Blondie24: Playing at the Edge of AI  watching:  The Thin Blue Line (again)  playing:  Automachef Slay the Spire  thinking:  How can the concept of an immutable team deal with the reality of constant change? How can I better spend my time with my family?  studying:  Certified Kubernetes Administrator  working:  Deakin Genie  </description>
     </item>
@@ -25,7 +25,7 @@
       <title>about me</title>
       <link>https://jamie.so/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/page/about/</guid>
       <description>It has probably been ten seconds since I last thought about computers in some way.
 I am facinated by the connections between technical systems, including the developers, stakeholders and users of those systems.
@@ -36,7 +36,7 @@ Sitting in a darkened room looking at a screen is pure fun and when the kids are
       <title>contact me</title>
       <link>https://jamie.so/page/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/page/contact/</guid>
       <description>email: jbgmoore@gmail.com
 twitter: https://twitter.com/jbgmoore
@@ -47,7 +47,7 @@ linkedin: https://www.linkedin.com/in/jbgmoore</description>
       <title>resume</title>
       <link>https://jamie.so/page/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/page/resume/</guid>
       <description>Career Goal Contribute to an organisation by working with engineers to design and develop their continuous delivery systems and cloud engineering patterns.
 Skills and Experience  I have worked as a Software/Systems/DevOps Engineer for over twenty years. In that time, I have designed, built and maintained a wide variety of computer systems. I am certified and proficient in designing and implementing solutions on AWS as proven over the last five years.</description>
@@ -57,7 +57,7 @@ Skills and Experience  I have worked as a Software/Systems/DevOps Engineer for o
       <title>talks</title>
       <link>https://jamie.so/page/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jbgmoore@gmail.com (jamie)</author>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/page/talks/</guid>
       <description>This page is intentionally blank to encourage me to fill it in :)</description>
     </item>

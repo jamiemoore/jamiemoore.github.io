@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jamie.so/tags/aws/</loc>
-    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
+    <loc>https://jamie.so/tags/git/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/github/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/post/gpg/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/gpg/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamie.so/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/post/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/</loc>
+    <lastmod>2019-08-26T20:35:15+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/aws/</loc>
     <lastmod>2017-03-23T23:24:02+11:00</lastmod>
   </url>
   
@@ -24,16 +54,6 @@
   
   <url>
     <loc>https://jamie.so/tags/linux/</loc>
-    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamie.so/post/</loc>
-    <lastmod>2017-03-23T23:24:02+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamie.so/tags/</loc>
     <lastmod>2017-03-23T23:24:02+11:00</lastmod>
   </url>
   
