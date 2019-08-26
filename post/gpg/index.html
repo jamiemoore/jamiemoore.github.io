@@ -10,9 +10,9 @@
   <title>github code signing - jamie.so</title>
   <meta property="og:title" content="github code signing" />
   <meta name="twitter:title" content="github code signing" />
-  <meta name="description" content="Configure your mac to sign your git commits">
-  <meta property="og:description" content="Configure your mac to sign your git commits">
-  <meta name="twitter:description" content="Configure your mac to sign your git commits">
+  <meta name="description" content="Automatically sign your git commits on your Mac">
+  <meta property="og:description" content="Automatically sign your git commits on your Mac">
+  <meta name="twitter:description" content="Automatically sign your git commits on your Mac">
   <meta name="author" content="jamie moore"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -63,9 +63,9 @@
   "headline": "github code signing",
   "description" : "Signing your code is an important part of verifying your identity. Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user. Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.\n",
   "inLanguage" : "en",
-  "wordCount":  220 ,
-  "datePublished" : "2019-08-26T20:35:15",
-  "dateModified" : "2019-08-26T20:35:15",
+  "wordCount":  282 ,
+  "datePublished" : "2018-09-24T20:35:15",
+  "dateModified" : "2018-09-24T20:35:15",
   "image" : "https:\/\/jamie.so\/img\/avatar-icon.png",
   "keywords" : [ "git, github, gpg" ],
   "mainEntityOfPage" : "https:\/\/jamie.so\/post\/gpg\/",
@@ -83,14 +83,14 @@
 </script>
 
 <meta property="og:title" content="github code signing" />
-<meta property="og:description" content="Configure your mac to sign your git commits">
+<meta property="og:description" content="Automatically sign your git commits on your Mac">
 <meta property="og:image" content="https://jamie.so/img/avatar-icon.png" />
 <meta property="og:url" content="https://jamie.so/post/gpg/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="jamie.so" />
 
   <meta name="twitter:title" content="github code signing" />
-  <meta name="twitter:description" content="Configure your mac to sign your git commits">
+  <meta name="twitter:description" content="Automatically sign your git commits on your Mac">
   <meta name="twitter:image" content="https://jamie.so/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@jbgmoore" />
@@ -279,14 +279,14 @@ if (!doNotTrack) {
               
               
                 
-                  <h2 class="post-subheading">Configure your mac to sign your git commits</h2>
+                  <h2 class="post-subheading">Automatically sign your git commits on your Mac</h2>
                 
               
               
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on August, 2019
+  <i class="fas fa-calendar"></i>&nbsp;Posted on September, 2018
   
   
   
@@ -315,24 +315,31 @@ if (!doNotTrack) {
 
 <h2 id="installation">Installation</h2>
 
-<p>Install as always using homebrew. Here we install the package <code>pinentry-mac</code> which allows us to store our GPG passphrase in the login keychain where the GPG agent can access it.  Which means we don&rsquo;t have to type the password all the time if we have already logged in.</p>
+<p>Install as always using homebrew. Install GPG with <code>gnupg</code>. Here we install the package <code>pinentry-mac</code> which allows us to enter our GPG passphrase in a GUI.  It can then be stored in the keychain, which means we don&rsquo;t have to type the password all the time if we have already logged in.</p>
 
 <ol>
 <li><p>Install GPG</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew install pinentry-mac</code></pre></div></li>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew install gnupg pinentry-mac</code></pre></div></li>
 
 <li><p>Configure pinentry-mac</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;pinentry-program </span><span class="k">$(</span>brew --prefix<span class="k">)</span><span class="s2">/bin/pinentry-mac&#34;</span> &gt;&gt; ~/.gnupg/gpg-agent.conf</code></pre></div></li>
 
 <li><p>Reload the gpg-agent</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg-connect-agent reloadagent /bye</code></pre></div></li>
+
+<li><p>Test GPG</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;test&#34;</span> <span class="p">|</span> gpg --clearsig</code></pre></div></li>
+
+<li><p>When the <code>pinentry-mac</code> screen appears tick the keep in keychain box.</p></li>
 </ol>
+
+<p><img src="/img/pinentry-mac-login.png" alt="pinentry-mac-login" /></p>
 
 <h2 id="gpg-usage">GPG Usage</h2>
 
 <ul>
-<li><p>Generate a GPG key</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --full-generate-key <span class="c1"># RSA4096</span> </code></pre></div></li>
+<li><p>Generate a GPG key by running the below command and following the prompts.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --full-generate-key </code></pre></div></li>
 
 <li><p>List keys</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --list-keys
@@ -340,7 +347,7 @@ if (!doNotTrack) {
 ---------------------------------
 pub   rsa2048 <span class="m">2018</span>-09-24 <span class="o">[</span>SC<span class="o">]</span> <span class="o">[</span>expires: <span class="m">2020</span>-09-23<span class="o">]</span>
     2A0F854026C471F2A4E61353692C6E2E9112D882
-uid           <span class="o">[</span>ultimate<span class="o">]</span> Jamie Moore &lt;jamie.moore@jamie.so&gt;
+uid           <span class="o">[</span>ultimate<span class="o">]</span> Jamie Moore &lt;jbgmoore@gmail.com&gt;
 sub   rsa2048 <span class="m">2018</span>-09-24 <span class="o">[</span>E<span class="o">]</span> <span class="o">[</span>expires: <span class="m">2020</span>-09-23<span class="o">]</span></code></pre></div></li>
 
 <li><p>Deleting Keys</p>
@@ -349,19 +356,26 @@ gpg  --delete-secret-keys 2A0F854026C471F2A4E61353692C6E2E9112D882</code></pre><
 
 <li><p>Export GPG key to clipboard (So you can copy them to GitHub)</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --armor --export 2A0F854026C471F2A4E61353692C6E2E9112D882 <span class="p">|</span> pbcopy</code></pre></div></li>
+
+<li><p>You can now paste it into your github user settings.</p></li>
 </ul>
 
 <h2 id="signing-commits">Signing Commits</h2>
 
 <ul>
 <li><p>Always sign commits for all repos</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git config --global commit.gpgSign <span class="nb">true</span> </code></pre></div></li>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git config --global user.signingkey &lt;PUBLIC-KEY-ID&gt;
+git config --global commit.gpgSign <span class="nb">true</span> </code></pre></div></li>
 
 <li><p>Sign commits just for that repository</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git config commit.gpgSign <span class="nb">true</span> </code></pre></div></li>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git config user.signingkey &lt;PUBLIC-KEY-ID&gt;
+git config commit.gpgSign <span class="nb">true</span> </code></pre></div></li>
 
 <li><p>Sign a specific commit</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git sign 07FF520A80246D1897D1ACA26D4AAC0705A1D321</code></pre></div></li>
+
+<li><p>Create and sign an annotated tag</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git tag -sm <span class="s1">&#39;My Signed Tag&#39;</span> v1.1.2</code></pre></div></li>
 </ul>
 
         
@@ -459,7 +473,7 @@ gpg  --delete-secret-keys 2A0F854026C471F2A4E61353692C6E2E9112D882</code></pre><
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2019
+            2018
           
 
           
