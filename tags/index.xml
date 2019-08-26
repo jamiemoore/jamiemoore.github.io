@@ -40,41 +40,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>aws</title>
-      <link>https://jamie.so/tags/aws/</link>
-      <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jq</title>
-      <link>https://jamie.so/tags/jq/</link>
-      <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/tags/jq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://jamie.so/tags/kubernetes/</link>
-      <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://jamie.so/tags/linux/</link>
-      <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/tags/linux/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

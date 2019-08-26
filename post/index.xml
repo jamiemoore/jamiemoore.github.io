@@ -22,14 +22,5 @@
       <description>&lt;p&gt;Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>welcome</title>
-      <link>https://jamie.so/post/welcome/</link>
-      <pubDate>Thu, 23 Mar 2017 23:24:02 +1100</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/post/welcome/</guid>
-      <description>&lt;p&gt;Here is some content.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>
