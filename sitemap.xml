@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamie.so/tags/aws/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/post/aws-jq/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/cli/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/jq/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/post/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamie.so/tags/</loc>
+    <lastmod>2019-08-26T23:10:17+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamie.so/tags/git/</loc>
     <lastmod>2019-08-26T22:53:58+10:00</lastmod>
   </url>
@@ -19,21 +54,6 @@
   
   <url>
     <loc>https://jamie.so/tags/gpg/</loc>
-    <lastmod>2019-08-26T22:53:58+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamie.so/</loc>
-    <lastmod>2019-08-26T22:53:58+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamie.so/post/</loc>
-    <lastmod>2019-08-26T22:53:58+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamie.so/tags/</loc>
     <lastmod>2019-08-26T22:53:58+10:00</lastmod>
   </url>
   
