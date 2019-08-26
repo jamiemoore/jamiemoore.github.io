@@ -61,9 +61,9 @@
     "name" : "jamie moore"
   },
   "headline": "github code signing",
-  "description" : "Signing your code is an important part of verifying your identity. Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user. Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.\n",
+  "description" : "Signing your code is an important part of verifying your identity to an SCM platform. Particularly with a system like Github Enterprise where spoofing your colleagues email address can make your commits appear to come from them. Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.\n",
   "inLanguage" : "en",
-  "wordCount":  282 ,
+  "wordCount":  289 ,
   "datePublished" : "2018-09-24T20:35:15",
   "dateModified" : "2018-09-24T20:35:15",
   "image" : "https:\/\/jamie.so\/img\/avatar-icon.png",
@@ -311,11 +311,11 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.</p>
+        <p>Signing your code is an important part of verifying your identity to an SCM platform.  Particularly with a system like Github Enterprise where spoofing your colleagues email address can make your commits appear to come from them.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.</p>
 
 <h2 id="installation">Installation</h2>
 
-<p>Install as always using homebrew. Install GPG with <code>gnupg</code>. Here we install the package <code>pinentry-mac</code> which allows us to enter our GPG passphrase in a GUI.  It can then be stored in the keychain, which means we don&rsquo;t have to type the password all the time if we have already logged in.</p>
+<p>As always, install using Homebrew. Install GPG with the <code>gnupg</code> formula. We also install the package <code>pinentry-mac</code> which allows us to enter our GPG passphrase in a GUI.  It can then be stored in the keychain, which means we don&rsquo;t have to type the password all the time if we have already logged in.</p>
 
 <ol>
 <li><p>Install GPG</p>
@@ -377,6 +377,8 @@ git config commit.gpgSign <span class="nb">true</span> </code></pre></div></li>
 <li><p>Create and sign an annotated tag</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git tag -sm <span class="s1">&#39;My Signed Tag&#39;</span> v1.1.2</code></pre></div></li>
 </ul>
+
+<p>Happy Signing!</p>
 
         
           <div class="blog-tags">
