@@ -8,7 +8,7 @@
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
-    <lastBuildDate>Mon, 24 Sep 2018 20:35:15 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 22:53:58 +1000</lastBuildDate>
     
 	<atom:link href="https://jamie.so/tags/gpg/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
     <item>
       <title>github code signing</title>
       <link>https://jamie.so/post/gpg/</link>
-      <pubDate>Mon, 24 Sep 2018 20:35:15 +1000</pubDate>
+      <pubDate>Mon, 26 Aug 2019 22:53:58 +1000</pubDate>
       <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/post/gpg/</guid>
       <description>&lt;p&gt;Signing your code is an important part of verifying your identity to an SCM platform.  Particularly with a system like Github Enterprise where spoofing your colleagues email address can make your commits appear to come from them.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.&lt;/p&gt;</description>
