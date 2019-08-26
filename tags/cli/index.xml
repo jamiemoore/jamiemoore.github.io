@@ -14,15 +14,12 @@
     
     
     <item>
-      <title>aws-cli and jq</title>
+      <title>awscli and jq</title>
       <link>https://jamie.so/post/aws-jq/</link>
       <pubDate>Mon, 26 Aug 2019 23:10:17 +1000</pubDate>
       <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/post/aws-jq/</guid>
-      <description>Ah the classic partnerships, hot chocolate and marshmallows , hot dogs and sauce, hot aws cli and jq.
-Installation The aws cli can be installed like so:
-pip install awscli and jq, thusly:
-brew install jq Top Tips Before you go crazy with jq alone&amp;hellip; remember your friend --filters on the aws cli &amp;hellip; because there is nothing like hitting the api limits by running a query over all your instances.</description>
+      <description>&lt;p&gt;Ah the classic partnerships, hot chocolate and marshmallows , hot dogs and sauce, hot aws cli and jq. Some days the GUI just won&amp;rsquo;t easily tell you what you want to know.  The AWS CLI and jq to the rescue!&lt;/p&gt;</description>
     </item>
     
   </channel>
