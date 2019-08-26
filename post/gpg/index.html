@@ -10,9 +10,9 @@
   <title>github code signing - jamie.so</title>
   <meta property="og:title" content="github code signing" />
   <meta name="twitter:title" content="github code signing" />
-  <meta name="description" content="Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.">
-  <meta property="og:description" content="Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.">
-  <meta name="twitter:description" content="Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from …">
+  <meta name="description" content="Configure your mac to sign your git commits">
+  <meta property="og:description" content="Configure your mac to sign your git commits">
+  <meta name="twitter:description" content="Configure your mac to sign your git commits">
   <meta name="author" content="jamie moore"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -63,7 +63,7 @@
   "headline": "github code signing",
   "description" : "Signing your code is an important part of verifying your identity. Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user. Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.\n",
   "inLanguage" : "en",
-  "wordCount":  203 ,
+  "wordCount":  220 ,
   "datePublished" : "2019-08-26T20:35:15",
   "dateModified" : "2019-08-26T20:35:15",
   "image" : "https:\/\/jamie.so\/img\/avatar-icon.png",
@@ -83,14 +83,14 @@
 </script>
 
 <meta property="og:title" content="github code signing" />
-<meta property="og:description" content="Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from another user.  Enforcing signing on the repository would enable you to determine if this has taken place and allow you to verify this import part of the software supply chain.">
+<meta property="og:description" content="Configure your mac to sign your git commits">
 <meta property="og:image" content="https://jamie.so/img/avatar-icon.png" />
 <meta property="og:url" content="https://jamie.so/post/gpg/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="jamie.so" />
 
   <meta name="twitter:title" content="github code signing" />
-  <meta name="twitter:description" content="Signing your code is an important part of verifying your identity.  Particularly with a system like github enterprise where changing your email address can result make your commits appear to come from …">
+  <meta name="twitter:description" content="Configure your mac to sign your git commits">
   <meta name="twitter:image" content="https://jamie.so/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@jbgmoore" />
@@ -278,6 +278,10 @@ if (!doNotTrack) {
               
               
               
+                
+                  <h2 class="post-subheading">Configure your mac to sign your git commits</h2>
+                
+              
               
                 <span class="post-meta">
   
@@ -311,11 +315,11 @@ if (!doNotTrack) {
 
 <h2 id="installation">Installation</h2>
 
-<p>Install as always using homebrew. Here we install the package <code>pinentry-mac</code> which allows us to store our GPG passphrase in the login keychain where the GPG agent can access it.</p>
+<p>Install as always using homebrew. Here we install the package <code>pinentry-mac</code> which allows us to store our GPG passphrase in the login keychain where the GPG agent can access it.  Which means we don&rsquo;t have to type the password all the time if we have already logged in.</p>
 
 <ol>
 <li><p>Install GPG</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew install gnupg pinentry-mac</code></pre></div></li>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew install pinentry-mac</code></pre></div></li>
 
 <li><p>Configure pinentry-mac</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">&#34;pinentry-program </span><span class="k">$(</span>brew --prefix<span class="k">)</span><span class="s2">/bin/pinentry-mac&#34;</span> &gt;&gt; ~/.gnupg/gpg-agent.conf</code></pre></div></li>
