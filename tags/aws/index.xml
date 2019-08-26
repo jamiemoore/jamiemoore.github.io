@@ -22,8 +22,7 @@
       <description>Ah the classic partnerships, hot chocolate and marshmallows , hot dogs and sauce, hot aws cli and jq.
 Installation The aws cli can be installed like so:
 pip install awscli And jq, thus:
-brew install jq ##Top Tips
-Before you go crazy with jq alone&amp;hellip; remember your friend --filters on the aws cli &amp;hellip; because there is nothing like hitting the api limits by running a query over all your instances.</description>
+brew install jq Top Tips Before you go crazy with jq alone&amp;hellip; remember your friend --filters on the aws cli &amp;hellip; because there is nothing like hitting the api limits by running a query over all your instances.</description>
     </item>
     
   </channel>
