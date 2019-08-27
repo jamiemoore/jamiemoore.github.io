@@ -7,12 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Overview of all pages with the tag #cli - jamie.so</title>
-  <meta property="og:title" content="Overview of all pages with the tag #cli" />
-  <meta name="twitter:title" content="Overview of all pages with the tag #cli" />
-  <meta name="description" content="Overview of all pages with the tag #cli, such as: aws-vault">
-  <meta property="og:description" content="Overview of all pages with the tag #cli, such as: aws-vault">
-  <meta name="twitter:description" content="Overview of all pages with the tag #cli, such as: aws-vault">
+  <title>aws-vault - jamie.so</title>
+  <meta property="og:title" content="aws-vault" />
+  <meta name="twitter:title" content="aws-vault" />
+  <meta name="description" content="local aws identity management">
+  <meta property="og:description" content="local aws identity management">
+  <meta name="twitter:description" content="local aws identity management">
   <meta name="author" content="jamie moore"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -33,14 +33,64 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/jamie.so\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/jamie.so\/post\/aws-vault\/",
+          "name": "Aws vault"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "jamie moore"
+  },
+  "headline": "aws-vault",
+  "description" : "Need to use the awscli and don\x26rsquo;t have time to implement federation? Can\x26rsquo;t connect to existing identity systems due to the skunkworks nature of your project? Have many seperate clients and aws accounts to deal with? aws-vault is here to save you.\n",
+  "inLanguage" : "en",
+  "wordCount":  427 ,
+  "datePublished" : "2019-08-27T21:52:42",
+  "dateModified" : "2019-08-27T21:52:42",
+  "image" : "https:\/\/jamie.so\/img\/avatar-icon.png",
+  "keywords" : [ "aws, cli, security, aws-vault\x22" ],
+  "mainEntityOfPage" : "https:\/\/jamie.so\/post\/aws-vault\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/jamie.so\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/jamie.so\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="cli" />
+<meta property="og:title" content="aws-vault" />
+<meta property="og:description" content="local aws identity management">
 <meta property="og:image" content="https://jamie.so/img/avatar-icon.png" />
-<meta property="og:url" content="https://jamie.so/tags/cli/" />
+<meta property="og:url" content="https://jamie.so/post/aws-vault/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="jamie.so" />
 
-  <meta name="twitter:title" content="cli" />
+  <meta name="twitter:title" content="aws-vault" />
+  <meta name="twitter:description" content="local aws identity management">
   <meta name="twitter:image" content="https://jamie.so/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@jbgmoore" />
@@ -50,7 +100,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@jbgmoore" />
   <meta name="twitter:creator" content="@jbgmoore" />
-  <meta property="og:url" content="https://jamie.so/tags/cli/" />
+  <meta property="og:url" content="https://jamie.so/post/aws-vault/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="jamie.so" />
 
@@ -222,14 +272,31 @@ if (!doNotTrack) {
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="post-heading">
               
-                <h1>cli</h1>
-              
-              
-                <hr class="small">
+                <h1>aws-vault</h1>
               
               
+              
+                
+                  <h2 class="post-subheading">local aws identity management</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on August, 2019
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;jamie moore
+  
+  
+</span>
+
+
               
             </div>
           </div>
@@ -240,111 +307,131 @@ if (!doNotTrack) {
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Need to use the awscli and don&rsquo;t have time to implement federation?  Can&rsquo;t connect to existing identity systems due to the skunkworks nature of your project? Have many seperate clients and aws accounts to deal with? <a href="https://github.com/99designs/aws-vault">aws-vault</a> is here to save you.</p>
+
+<p>aws-vault allows you to  add your AWS access key and secret to your computers keyring and then generates an ephemeral key for you to use for a certain time period (1h).  If that key is accidentally revealed during development work, for example discovered in a log in a few days time, no harm done.  Compared to traditionally where the access key and secret are long lived and exist as environment variables.</p>
+
+<h2 id="installation">Installation</h2>
+
+<ol>
+<li><p>Install aws-vault</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">brew cask install aws-vault</code></pre></div></li>
+
+<li><p>Go into the AWS console and generate yourself a new <a href="https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys">access and secret key</a>.</p></li>
+
+<li><p>Create a new aws  <code>~/.aws/config</code> if you don&rsquo;t have one already.</p></li>
+
+<li><p>Add your account structure into that file.  Normal rules for configuring the  <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html">aws config file</a> apply.  For example to configure an account where use have user credentials requiring mfa you would use</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>default<span class="o">]</span>
+<span class="nv">region</span><span class="o">=</span>ap-southeast-2
+    
+<span class="o">[</span>profile root-account<span class="o">]</span>
+<span class="nv">mfa_serial</span> <span class="o">=</span> arn:aws:iam::12345:mfa/YOURACCOUTNAMEGOESHERE</code></pre></div></li>
+
+<li><p><strong>Don&rsquo;t</strong> place credentials into <code>~/.aws/credentials</code> as you may currently be doing.  Instead add the credentials into aws-vault, using the example from above.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">aws-vault add root-account </code></pre></div></li>
+
+<li><p>Optionally, configure your environment with additional variables to control how aws-vault is configured, a full list can be found <a href="https://github.com/99designs/aws-vault/blob/master/USAGE.md#environment-variables">here</a> Notice that we usually using the aws cli so we are adding that autocompletion too.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">complete</span> -C aws_completer aws-vault
+<span class="nb">export</span> <span class="nv">AWS_VAULT_KEYCHAIN_NAME</span><span class="o">=</span>login
+<span class="nb">export</span> <span class="nv">AWS_VAULT_PROMPT</span><span class="o">=</span>osascript
+<span class="nb">export</span> <span class="nv">AWS_ASSUME_ROLE_TTL</span><span class="o">=</span>1h
+<span class="nb">export</span> <span class="nv">AWS_SESSION_TTL</span><span class="o">=</span>1h
+<span class="nb">export</span> <span class="nv">AWS_ASSUME_ROLE_TTL</span><span class="o">=</span>1h
+<span class="nb">export</span> <span class="nv">AWS_FEDERATION_TOKEN_TTL</span><span class="o">=</span>1h</code></pre></div></li>
+
+<li><p>You should now be able to confirm that aws is working by checking your aws identity</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">aws-vault <span class="nb">exec</span> root-account -- aws sts get-caller-identity</code></pre></div></li>
+</ol>
+
+<h2 id="usage">Usage</h2>
+
+<p>In these examples we have configured our  <code>~/.aws/config</code> file with contents:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>default<span class="o">]</span>
+<span class="nv">region</span><span class="o">=</span>ap-southeast-2
+ 
+<span class="o">[</span>profile root-account<span class="o">]</span>
+<span class="nv">mfa_serial</span> <span class="o">=</span> arn:aws:iam::12345:mfa/YOURACCOUTNAMEGOESHERE
+ 
+<span class="o">[</span>profile child-account-a<span class="o">]</span>
+<span class="nv">source_profile</span> <span class="o">=</span> root-account
+<span class="nv">role_arn</span> <span class="o">=</span> arn:aws:iam::23456:role/OrganizationAccountAccessRole
+
+<span class="o">[</span>profile child-account-b<span class="o">]</span>
+<span class="nv">source_profile</span> <span class="o">=</span> root-account
+<span class="nv">role_arn</span> <span class="o">=</span> arn:aws:iam::34567:role/OrganizationAccountAccessRole</code></pre></div>
+<p>This means we have created a user account in the aws root account with mfa and we assume roles from that account to access child accounts in our organisation.</p>
+
+<ul>
+<li><p>Run an aws command in the root account</p>
+<div class="highlight"><pre class="chroma"><code class="language-bahs" data-lang="bahs">aws-vault exec root-account -- aws sts get-caller-identity</code></pre></div></li>
+
+<li><p>Run an aws command in a child account (you will need credentials for the root account)</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">aws-vault <span class="nb">exec</span> child-account-a -- aws sts get-caller-identity</code></pre></div></li>
+
+<li><p>Combine with <a href="https://github.com/segmentio/chamber">chamber</a> and run terraform</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">aws-vault <span class="nb">exec</span> root-account -- chamber <span class="nb">exec</span> prod -- terraform plan</code></pre></div></li>
+
+<li><p>List your different credentials</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">aws-vault list</code></pre></div></li>
+
+<li><p>Clear an existing session.  Not the sessions-only flag is important or you will remove the configuration.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">aws-vault remove --sessions-only root-account </code></pre></div></li>
+</ul>
+
         
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="https://jamie.so/post/aws-vault/">
-                <h2 class="post-title">aws-vault</h2>
-
-                
-                  <h3 class="post-subtitle">
-                    local aws identity management
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on August, 2019
-  
-  
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;jamie moore
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  <p>Need to use the awscli and don&rsquo;t have time to implement federation?  Can&rsquo;t connect to existing identity systems due to the skunkworks nature of your project? Have many seperate clients and aws accounts to deal with? <a href="https://github.com/99designs/aws-vault">aws-vault</a> is here to save you.</p>
-                  <a href="https://jamie.so/post/aws-vault/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="https://jamie.so//tags/aws/">aws</a>&nbsp;
-                  
-                    <a href="https://jamie.so//tags/cli/">cli</a>&nbsp;
-                  
-                    <a href="https://jamie.so//tags/security/">security</a>&nbsp;
-                  
-                    <a href="https://jamie.so//tags/aws-vault/">aws-vault&#34;</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://jamie.so/post/aws-jq/">
-                <h2 class="post-title">awscli and jq</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on August, 2019
-  
-  
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;jamie moore
-  
-  
-</span>
-
-
-              </p>
-              <div class="post-entry">
-                
-                  <p>Ah the classic partnerships, hot chocolate and marshmallows , hot dogs and sauce, hot aws cli and jq. Some days the GUI just won&rsquo;t easily tell you what you want to know.  The AWS CLI and jq to the rescue!</p>
-                  <a href="https://jamie.so/post/aws-jq/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-                <div class="blog-tags">
-                  
-                    <a href="https://jamie.so//tags/aws/">aws</a>&nbsp;
-                  
-                    <a href="https://jamie.so//tags/jq/">jq</a>&nbsp;
-                  
-                    <a href="https://jamie.so//tags/cli/">cli</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
-        </div>
+          <div class="blog-tags">
+            
+              <a href="https://jamie.so//tags/aws/">aws</a>&nbsp;
+            
+              <a href="https://jamie.so//tags/cli/">cli</a>&nbsp;
+            
+              <a href="https://jamie.so//tags/security/">security</a>&nbsp;
+            
+              <a href="https://jamie.so//tags/aws-vault/">aws-vault&#34;</a>&nbsp;
+            
+          </div>
         
-      </div>
+
+        
+
+        
+          
+          
+          <h4 class="see-also">See also</h4>
+          <ul>
+          
+            <li><a href="/post/aws-jq/">awscli and jq</a></li>
+          
+          </ul>
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://jamie.so/post/aws-jq/" data-toggle="tooltip" data-placement="top" title="awscli and jq">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
@@ -386,7 +473,7 @@ if (!doNotTrack) {
               </li>
           
           <li>
-            <a href="/tags/cli/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

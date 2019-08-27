@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
-    <lastBuildDate>Mon, 26 Aug 2019 23:10:17 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 21:52:42 +1000</lastBuildDate>
     
 	<atom:link href="https://jamie.so/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>aws-vault</title>
+      <link>https://jamie.so/post/aws-vault/</link>
+      <pubDate>Tue, 27 Aug 2019 21:52:42 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/post/aws-vault/</guid>
+      <description>&lt;p&gt;Need to use the awscli and don&amp;rsquo;t have time to implement federation?  Can&amp;rsquo;t connect to existing identity systems due to the skunkworks nature of your project? Have many seperate clients and aws accounts to deal with? &lt;a href=&#34;https://github.com/99designs/aws-vault&#34;&gt;aws-vault&lt;/a&gt; is here to save you.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>awscli and jq</title>
