@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>aws-vault on jamie.so</title>
-    <link>https://jamie.so/tags/aws-vault/</link>
-    <description>Recent content in aws-vault on jamie.so</description>
+    <title>kms on jamie.so</title>
+    <link>https://jamie.so/tags/kms/</link>
+    <description>Recent content in kms on jamie.so</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
     <lastBuildDate>Tue, 27 Aug 2019 23:39:46 +1000</lastBuildDate>
     
-	<atom:link href="https://jamie.so/tags/aws-vault/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamie.so/tags/kms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/post/chamber/</guid>
       <description>&lt;p&gt;Secrets management &amp;hellip; the bane of automation in enterprises!  If you are lucky enough to use aws parameter store and kms (every SecArch loves kms, so that part should be straight forward).  Then you can manage your secrets using &lt;a href=&#34;https://github.com/segmentio/chamber&#34;&gt;chamber&lt;/a&gt;.  A tool that allows you to read a secret from parameter store and place them in your environment.  It pairs fantastically well with aws-vault for identity management.  Excellent to use as glue between an encrypted secret in parameter store and terraform.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>aws-vault</title>
-      <link>https://jamie.so/post/aws-vault/</link>
-      <pubDate>Tue, 27 Aug 2019 21:52:42 +1000</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/post/aws-vault/</guid>
-      <description>&lt;p&gt;Need to use the awscli and don&amp;rsquo;t have time to implement federation?  Can&amp;rsquo;t connect to existing identity systems due to the skunkworks nature of your project? Have many seperate clients and aws accounts to deal with? &lt;a href=&#34;https://github.com/99designs/aws-vault&#34;&gt;aws-vault&lt;/a&gt; is here to save you.&lt;/p&gt;</description>
     </item>
     
   </channel>

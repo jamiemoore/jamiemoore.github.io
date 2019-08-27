@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
-    <lastBuildDate>Tue, 27 Aug 2019 21:52:42 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 23:39:46 +1000</lastBuildDate>
     
 	<atom:link href="https://jamie.so/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>chamber</title>
+      <link>https://jamie.so/post/chamber/</link>
+      <pubDate>Tue, 27 Aug 2019 23:39:46 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/post/chamber/</guid>
+      <description>&lt;p&gt;Secrets management &amp;hellip; the bane of automation in enterprises!  If you are lucky enough to use aws parameter store and kms (every SecArch loves kms, so that part should be straight forward).  Then you can manage your secrets using &lt;a href=&#34;https://github.com/segmentio/chamber&#34;&gt;chamber&lt;/a&gt;.  A tool that allows you to read a secret from parameter store and place them in your environment.  It pairs fantastically well with aws-vault for identity management.  Excellent to use as glue between an encrypted secret in parameter store and terraform.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>aws-vault</title>
