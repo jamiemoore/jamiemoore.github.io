@@ -8,10 +8,37 @@
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
-    <lastBuildDate>Tue, 27 Aug 2019 23:39:46 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 11:45:40 +1000</lastBuildDate>
     
 	<atom:link href="https://jamie.so/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cli</title>
+      <link>https://jamie.so/tags/cli/</link>
+      <pubDate>Sun, 15 Sep 2019 11:45:40 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://jamie.so/tags/linux/</link>
+      <pubDate>Sun, 15 Sep 2019 11:45:40 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sed</title>
+      <link>https://jamie.so/tags/sed/</link>
+      <pubDate>Sun, 15 Sep 2019 11:45:40 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/tags/sed/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>aws</title>
@@ -37,15 +64,6 @@
       <pubDate>Tue, 27 Aug 2019 23:39:46 +1000</pubDate>
       <author>jbgmoore@gmail.com (jamie moore)</author>
       <guid>https://jamie.so/tags/chamber/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cli</title>
-      <link>https://jamie.so/tags/cli/</link>
-      <pubDate>Tue, 27 Aug 2019 23:39:46 +1000</pubDate>
-      <author>jbgmoore@gmail.com (jamie moore)</author>
-      <guid>https://jamie.so/tags/cli/</guid>
       <description></description>
     </item>
     

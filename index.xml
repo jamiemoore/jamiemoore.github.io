@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>jbgmoore@gmail.com (jamie moore)</managingEditor>
     <webMaster>jbgmoore@gmail.com (jamie moore)</webMaster>
-    <lastBuildDate>Tue, 27 Aug 2019 23:39:46 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 11:45:40 +1000</lastBuildDate>
     
 	<atom:link href="https://jamie.so/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>sed</title>
+      <link>https://jamie.so/post/sed/</link>
+      <pubDate>Sun, 15 Sep 2019 11:45:40 +1000</pubDate>
+      <author>jbgmoore@gmail.com (jamie moore)</author>
+      <guid>https://jamie.so/post/sed/</guid>
+      <description>&lt;p&gt;&lt;code&gt;sed&lt;/code&gt;, search and replace text using regex.  You have text and you want to change it&amp;hellip; you need sed.  Works well over multiple files when combined with &lt;code&gt;find&lt;/code&gt;. Pre installed on most operating systems just waiting for you to use it.  However using the BSD version of sed that comes with OS X can cause you pain&amp;hellip; so sometimes for compatibility &lt;code&gt;awk&lt;/code&gt; is your friend.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>chamber</title>
